@@ -30,9 +30,9 @@ body {
 }
 
 .clock {
-    position: relative;
-    width: 850px;
-    height: 850px;
+    position: absolute;
+    height: 90vh;
+    width: 90vh;
     background-color: rgba(180, 180, 180, 0.877);
     background: linear-gradient(to top, hsl(0, 0%, 0%), hsl(0, 0%, 20%));
     border-radius: 50%;
