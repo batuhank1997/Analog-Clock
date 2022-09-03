@@ -7,12 +7,13 @@
     <style>
         @import './styles/styles.css';
     </style>
-    <script defer src=script.js></script>
+    <script defer src=clock.js></script>
     <script defer src=fullscreen.js></script>
+    <script defer src=darkmode.js></script>
 </head>
 
 <body>
-    <div class="clock">
+    <div class="clock" id="clock">
         <div class="hand hour" data-hour-hand></div>
         <div class="hand minute" data-minute-hand></div>
         <div class="hand second" data-second-hand></div>
@@ -29,10 +30,18 @@
         <div class="number number11">11</div>
         <div class="number number12">12</div>
         <div class="number dot">.</div>
+
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="label">
+            <img class="fas fa-sun" src="./images/sun.png"></img>
+            <img class="fas fa-moon" src="./images/crescent-moon (1).png"></img>
+            <div class="ball" id="ball"></div>
+        </label>
+
     </div>
 
     <button id="myButton" class="myButton">
-        <img id="myImg" src="./images/full.png" width="60" height="60" />
+        <img id="myImg" src="./images/full-screen-icon-11774.png" width="60" height="60" />
     </button>
 
     <script type="module">

@@ -1,7 +1,6 @@
 import range from 'lodash/range';
 import shuffle from 'lodash/shuffle';
 import { add } from './components/maths';
-import { add } from './script';
 
 const x = 10;
 const y = 32;
